@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Redirect</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  window.onload = function() {
+    var surveys = ['https://ec.europa.eu/eusurvey/runner/RWEsurvey2024', 'https://ec.europa.eu/eusurvey/runner/RWEsurvey2024]; // Your survey URLs
+    var selectedSurvey = surveys[Math.floor(Math.random() * surveys.length)];
+    window.location.href = selectedSurvey; // Redirects the user
+  }
+</script>
+
+</body>
+</html>
